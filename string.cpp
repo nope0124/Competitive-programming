@@ -1,6 +1,6 @@
 /* 文字列操作、回文判定 */
 
-string Toupper(string s) {
+string toUpper(string s) {
   string ans = "";
   rep (i, s.size()) {
     if ('a' <= s[i] && s[i] <= 'z') ans += (char)s[i] - 32;
@@ -9,7 +9,7 @@ string Toupper(string s) {
   return ans;
 }
 
-string Tolower(string s) {
+string toLower(string s) {
   string ans = "";
   rep (i, s.size()) {
     if ('A' <= s[i] && s[i] <= 'Z') ans += (char)s[i] + 32;

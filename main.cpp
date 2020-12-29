@@ -6,8 +6,8 @@ typedef long double ld;
 typedef pair<ll, ll> pint;
 const ll MOD = 1000000007;
 const ll INF = 9223372036854775807;
-#define rep(i, n) for(ll i = 0; i < (n); i++)
-#define Rep(i, s, t) for(ll i = (s); i < (t); i++)
+#define rep(i, n) for(ll i = (ll)0; i < (ll)(n); i++)
+#define Rep(i, s, t) for(ll i = (ll)(s); i < (ll)(t); i++)
 #define ALL(a)  (a).begin(),(a).end()
 #define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 #define PI 3.14159265358979323846
@@ -44,7 +44,7 @@ ll Sint(ll n) {
 
 ll Svec(vector<ll> v){
   ll n = 0;
-  rep(i, v.size()) n += v[i];
+  rep(i, (ll)v.size()) n += v[i];
   return n;
 }
 
