@@ -3,15 +3,20 @@
 using namespace std;
 typedef long long int ll;
 typedef long double ld;
+typedef vector<ll> vl;
+typedef vector<vector<ll>> vvl;
+typedef vector<vector<vector<ll>>> vvvl;
 typedef pair<ll, ll> pint;
 const ll MOD = 1000000007;
-const ll INF = 9223372036854775807;
+const ll INF = 922337203685477580;
 #define rep(i, n) for(ll i = (ll)0; i < (ll)(n); i++)
 #define Rep(i, s, t) for(ll i = (ll)(s); i < (ll)(t); i++)
 #define ALL(a)  (a).begin(),(a).end()
 #define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 #define PI 3.14159265358979323846
 #define ifYN(x) cout << (x ? "Yes" : "No") << "\n"
+ll dx[4] = {-1, 1, 0, 0};
+ll dy[4] = {0, 0, -1, 1};
 
 template<class T> inline bool chmin(T& a, T b) {
   if (a > b) {
@@ -68,7 +73,7 @@ ll POW(ll a, ll n, ll mod = INF) {
 
 void dis(vector<ll> v){ rep(i, v.size()) cout << v[i] << endl; }
 
-void dis2(vector<vector<ll>> v) {
+void dis2(vector<vector<ll> > v) {
   rep (i, v.size()) {
     rep (j, v[0].size()) cout << v[i][j] << ' ';
     cout << endl;
@@ -80,7 +85,7 @@ bool cmp(pint a, pint b) { return a.second < b.second; }
 /*↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
 int main() {
   IOS;
-  ll n; cin >> n;
-  vector<ll> v(n);
-  rep (i, n) cin >> v[i];
+  ll N; cin >> N;
+  vector<ll> V(N);
+  rep (i, N) cin >> V[i];
 }

@@ -1,6 +1,6 @@
 /* ダイクストラ法 */
 
-const ll MAX_V = 100010; //頂点数
+const ll MAX_V = 200010; //頂点数
 struct edge{
   ll to, cost;
 };
