@@ -71,7 +71,10 @@ ll POW(ll a, ll n, ll mod = INF) {
   return res;
 }
 
-void dis(vector<ll> v){ rep(i, v.size()) cout << v[i] << endl; }
+void dis(vector<ll> V) {
+  rep(i, V.size()) cout << (i ? " " : "") << V[i];
+  cout << endl;
+}
 
 void dis2(vector<vector<ll> > v) {
   rep (i, v.size()) {
