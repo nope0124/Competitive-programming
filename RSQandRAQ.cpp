@@ -9,7 +9,7 @@ struct LazySegmentTree {
     LazySegmentTree(vector<ll> V) {
       N = 1;
       while(N < (int)V.size()) N *= 2;
-      node.resize(2 * N - 1);
+      node.resize(2 * N - 1, 0);
       lazy.resize(2 * N - 1, 0);
       rep (i, (int)V.size()) node[i + N - 1] = V[i];
       for(int i = N - 2; i >= 0; i--) node[i] = node[i * 2 + 1] + node[i * 2 + 2];
