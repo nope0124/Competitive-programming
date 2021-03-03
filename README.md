@@ -114,7 +114,7 @@
 |void merge()|頂点をマージします|
 |int size()|集合の大きさを求めます|
 
-## modint.cpp(写しました)
+## modint.cpp(<a href = "https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a" target = "_blank">写しました</a>)
 |関数名|用途 ・ 説明|
 |:--:|:--:|
 |mint modpow()|二分累乗法である数の累乗を求めます|
