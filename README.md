@@ -2,6 +2,7 @@
 競技プログラミング用のライブラリ  
 0から書くと時間の掛かるアルゴリズムをまとめています。
 
+# アルゴリズム
 ## acc_sum.cpp
 |関数名|用途 ・ 説明|
 |:--:|:--:|
@@ -72,18 +73,49 @@
 |vector\<vector\<ll\>\> MATMUL()|行列積を求めます|
 |vector\<vector\<ll\>\> MATPOW()|行列累乗を求めます|
 
-## matrix.cpp
+## maxflow.cpp
 |関数名|用途 ・ 説明|
 |:--:|:--:|
-|vector\<vector\<ll\>\> MATMUL()|行列積を求めます|
-|vector\<vector\<ll\>\> MATPOW()|行列累乗を求めます|
+|void add_edge()|グラフに対して辺を貼ります|
+|ll get_flow()|再帰的にflowを流します|
+|ll max_flow()|最大流を求めます|
 
+## modint.cpp
+|関数名|用途 ・ 説明|
+|:--:|:--:|
+|mint nCk()|nCkをMODで割った余りを求めます。nが極端に大きい時に使います|
 
+## runlength.cpp
+|関数名|用途 ・ 説明|
+|:--:|:--:|
+|vector\<pair\<char, ll\>\> runlength()|文字列に対してランレングス圧縮をします|
 
+## string.cpp
+|関数名|用途 ・ 説明|
+|:--:|:--:|
+|string toUpper()|文字列を全て大文字にします|
+|string toLower()|文字列を全て小文字にします|
+|bool palindrome()|回文かどうかの判定をします|
+|vector\<ll\> Zalgo()|文字列から最長共通接頭辞配列を求めます|
 
+## to_bit.cpp
+|関数名|用途 ・ 説明|
+|:--:|:--:|
+|string to()|n進数からm進数への変換をします|
 
+# データ構造
 
+## unionfindtree.cpp
+|関数名|用途 ・ 説明|
+|:--:|:--:|
+|void init()|木を初期化します|
+|int root()|木の根を求めます|
+|bool issame()|二つの頂点が同じ集合に属するかを判定します|
+|void merge()|頂点をマージします|
+|int size()|集合の大きさを求めます|
 
-
-
+## modint.cpp(写しました)
+|関数名|用途 ・ 説明|
+|:--:|:--:|
+|mint modpow()|二分累乗法である数の累乗を求めます|
 
