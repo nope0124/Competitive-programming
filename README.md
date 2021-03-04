@@ -60,13 +60,6 @@
 |vector\<pint\> prime_factorize()|素因数分解してくれます|
 |vector\<ll\> divisor()|約数列挙します|
 
-## math.cpp
-|関数名|用途 ・ 説明|
-|:--:|:--:|
-|vector\<bool\> sieve_of_eratosthenes()|素数かどうかを判定する一次元配列を作ります|
-|vector\<pint\> prime_factorize()|素因数分解してくれます|
-|vector\<ll\> divisor()|約数列挙します|
-
 ## matrix.cpp
 |関数名|用途 ・ 説明|
 |:--:|:--:|
